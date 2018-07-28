@@ -37,6 +37,7 @@ class StatisticsViewController: UIViewController {
         barChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0)
         barChartView.xAxis.enabled = false
         
+        
         var data = [BarChartDataEntry]()
         
         for (i, val) in y.enumerated() {
@@ -51,6 +52,7 @@ class StatisticsViewController: UIViewController {
         
     }
     
+    
     @IBAction func continueButtonTapped(_ sender: Any) {
     }
     
@@ -63,5 +65,6 @@ class StatisticsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }
