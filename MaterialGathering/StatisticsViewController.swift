@@ -34,7 +34,7 @@ class StatisticsViewController: UIViewController {
     
     func setChart(y: [Double]){
         barChartView.chartDescription?.text = "testtesttest"
-        barChartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0)
+        barChartView.animate(xAxisDuration: 1.0, yAxisDuration: 1.0)
         barChartView.xAxis.enabled = false
         
         
